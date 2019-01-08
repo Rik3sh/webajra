@@ -89,8 +89,8 @@
 					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<h1 class="white-text">We Are Digital Agency</h1>
-							<p class="white-text">Social Media Advertising and Management | Digital Advertising | Website Development | Content Marketing and SEO | Mobile App Development
+							<h1 class="white-text"><?php global $webajra_redux; echo $webajra_redux['main-heading-textbox']; ?></h1>
+							<p class="white-text"><?PHP ECHO $webajra_redux['main-heading-desc']; ?>
 							</p>
 							<button class="white-btn">Get Started!</button>
 							<button class="main-btn">Learn more</button>
